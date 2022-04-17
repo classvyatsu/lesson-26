@@ -87,7 +87,7 @@ const modal = document.querySelector(".modal"),
 
 modalButtons.forEach((item) => {
   item.addEventListener("click", () => {
-    headerMobile.classList.toggle("active");
+    headerMobile.classList.remove("active");
     burger.style.display = "block";
     cross.style.display = "none";
     body.classList.remove("noscroll");
